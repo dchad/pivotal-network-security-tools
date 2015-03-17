@@ -3,7 +3,7 @@ Automatically exported from code.google.com/p/pivotal-network-security-tools
 
 Pivotal NST monitors network traffic to detect malicious activity, provides visualisation, reporting and management tools, and generates crafted pushback to malicious adversaries.
 
-1. Introduction
+# 1. Introduction
 
 Pivotal NST consists of four main components:
 
@@ -15,15 +15,16 @@ Pivotal NST consists of four main components:
 
 - Honeypot: spoofs typical server ports, generates pushback payloads, inserts the payloads into files pulled by the malicious adversary. 
 
-2 Quick Start Guide
-
-TODO
-3 Screenshots
+# 2 Quick Start Guide
 
 TODO
 
+# 3 Screenshots
 
-4 References
+TODO
+
+
+# 4 References
 
 Bernhard Amann, Robin Sommer, Aashish Sharma, and Seth Hall. (2012). A lone wolf no more: Supporting network intrusion detection with real-time intelligence. Lecture Notes in Computer Science, 7462:314–333, 2012. CODEN LNCSD9. ISSN 0302-9743 (print), 1611-3349 (electronic). URL http://link.springer.com/chapter/10.1007/978-3-642-33338-5_16/
 
@@ -32,12 +33,12 @@ Ke Wang, Janak J. Parekh, Salvatore J. Stolfo. (2006). Anagram: A Content Anomal
 Wressnegger, C., Schwenk, G., Arp, D., Rieck, K. (2013). A Close Look on n-Grams in Intrusion Detection: Anomaly Detection vs. Classification. In Proceedings of the 2013 ACM workshop on Artificial intelligence and security (AISec '13). ACM, New York, NY, USA, 67-76. DOI=10.1145/2517312.2517316 http://doi.acm.org/10.1145/2517312.2517316
 
 
-5 Acknowledgements
+# 5 Acknowledgements
 
 TODO
 
 
-6 Sensor/Server Protocol
+# 6 Sensor/Server Protocol
 
 All messages between between sensors and the server are plain text event data or control messages.
 
