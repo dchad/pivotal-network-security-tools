@@ -27,6 +27,7 @@
             and executes packet sniffer mode or Snort/Suricata log follower
             mode.
 
+   Status: Experimental, do not use in production environment.
 */
 
 
@@ -196,7 +197,7 @@ int parse_command_line_args(int argc, char *argv[], char *capture_device, char *
 			   {
 			      /* IP address of the Pivotal NST Server. */
 			      printf("parse_command_line_args() <INFO> Server IP address: %s\n", argv[i+1]);
-               strncpy(server_ip_address, argv[i+1], strlen(argv[i+1]));
+                  strncpy(server_ip_address, argv[i+1], strlen(argv[i+1]));
 			      if (validate_ipv4_address(server_ip_address) < 0)
 			      {
 				      print_log_entry("parse_command_line_args() <ERROR> Invalid IPv4 address.\n");
@@ -206,7 +207,7 @@ int parse_command_line_args(int argc, char *argv[], char *capture_device, char *
 			   else
 			   {
 			      print_log_entry("parse_command_line_args() <ERROR> Missing IPv4 address.\n");
-               return(-1);
+                  return(-1);
 			   }
 		   }
          else if (strncmp(argv[i], "-f", 2) == 0)
