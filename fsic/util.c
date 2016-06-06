@@ -1,8 +1,8 @@
 /*
    util.c
 
-   Title : File System Integrity Checker ICT539 Semester 2 Project
-   Author: Derek Chadwick 18910502
+   Title : File System Integrity Checker
+   Author: Derek Chadwick
    Date  : 24/09/2011
   
    Purpose: Wrapper functions for various standard C lib functions to

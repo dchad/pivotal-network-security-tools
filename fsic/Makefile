@@ -1,6 +1,6 @@
 # FSIC - File System Integrity Checker
 # Derek Chadwick 18910502
-# ICT539 Project
+# Generate compiled in key and make the project.
 
 CC=gcc
 CFLAGS=-c -Wall -ansi
