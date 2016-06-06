@@ -1,7 +1,7 @@
 /*
    hmac.c
 
-   Title : File System Integrity Checker ICT539 Semester 2 Project
+   Title : File System Integrity Checker
    Author: Derek Chadwick 18910502
    Date  : 24/09/2011
   
