@@ -42,7 +42,7 @@ TODO
 
 # 6 Sensor/Server Protocol
 
-All messages between between sensors and the server are plain text event data or control messages.
+All messages between between sensors and the server are encrypted text event data or control messages.
 
 1. Event Messages
 
